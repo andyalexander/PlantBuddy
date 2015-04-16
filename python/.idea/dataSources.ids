@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<component name="dataSourceStorage">
+  <data-source name="data" uuid="522c65c9-a954-4864-86de-e89372803455">
+    <database-info product="SQLite" version="3.7.6.3" jdbc-version="2.1" driver-name="SQLiteJDBC" driver-version="native"/>
+    <case-sensitivity plain-identifiers="mixed" quoted-identifiers="mixed"/>
+    <schema name="" catalog=""/>
+    <table name="nodes" schema="" catalog="" type="TABLE">
+      <column name="id" sqlType="INTEGER" precision="2000000000" scale="10" nullable="false" jdbcType="4"/>
+      <column name="alias" sqlType="VARCHAR(128)" precision="2000000000" scale="10" nullable="false" jdbcType="12"/>
+      <primary-key columns="id"/>
+    </table>
+    <table name="readings" schema="" catalog="" type="TABLE">
+      <column name="id" sqlType="INTEGER" precision="2000000000" scale="10" nullable="false" jdbcType="4"/>
+      <column name="nodeID" sqlType="INTEGER(128)" precision="2000000000" scale="10" nullable="false" jdbcType="4"/>
+      <column name="obsDate" sqlType="TEXT(23)" precision="2000000000" scale="10" nullable="false" jdbcType="12"/>
+      <column name="moisture" sqlType="FLOAT(128)" precision="2000000000" scale="10" nullable="false" jdbcType="6"/>
+      <column name="temperature" sqlType="FLOAT(128)" precision="2000000000" scale="10" nullable="false" jdbcType="6"/>
+      <column name="humidity" sqlType="FLOAT(128)" precision="2000000000" scale="10" nullable="false" jdbcType="6"/>
+      <column name="voltage" sqlType="FLOAT(128)" precision="2000000000" scale="10" nullable="false" jdbcType="6"/>
+      <column name="errorCode" sqlType="INTEGER(128)" precision="2000000000" scale="10" nullable="false" jdbcType="4"/>
+      <primary-key columns="id"/>
+    </table>
+    <table name="sqlite_sequence" schema="" catalog="" type="TABLE">
+      <column name="name" sqlType="" precision="2000000000" scale="10" nullable="true" jdbcType="12"/>
+      <column name="seq" sqlType="" precision="2000000000" scale="10" nullable="true" jdbcType="12"/>
+    </table>
+  </data-source>
+</component>

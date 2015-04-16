@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="PublishConfigData" serverName="SendToRasPi2" exclude=".svn;.cvs;.idea;.DS_Store;.git;.hg; *.pyc">
+    <serverData>
+      <paths name="SendToRasPi2">
+        <serverdata>
+          <mappings>
+            <mapping deploy="/home/pi/PlantBuddy" local="$PROJECT_DIR$" web="/" />
+          </mappings>
+        </serverdata>
+      </paths>
+    </serverData>
+  </component>
+</project>
